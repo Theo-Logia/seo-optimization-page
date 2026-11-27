@@ -154,9 +154,19 @@ Pour chaque page : suggestions, idées ou mots-clés liés, overview, puis SERP 
 pressenti. Pas de restriction sur le nombre d'appels.
 
 Règles de la carte :
+- **Mots-clés sans ville** : le focus keyword est la forme de base (`cours de pilates`, jamais
+  `pilates valence`). La ville est écrite autour dans le texte, le H1, le title et la
+  description (« Cours de pilates à Valence »). Un mot-clé avec la ville collée donne des phrases
+  et des titres artificiels.
 - **1 mot-clé principal par page**, jamais réutilisé ailleurs comme principal ni secondaire.
+  **Exception : pages de localité.** Les pages d'une même discipline dans des villes différentes
+  (ex : Pilates Valence et Pilates Saint-Péray) peuvent partager le même principal : Google les
+  départage par la ville (title, H1, texte, adresse, fiche Google). Ce principal ne doit jamais
+  être celui de la page pratique sans ville (ex : `/pratiques/pilates/`), qui garde sa propre
+  base, sinon rien ne la distingue des pages locales. Lier les pages de localité entre elles.
 - **1 à 3 secondaires par page**, eux aussi **exclusifs** : un secondaire ne doit être ni le
-  principal ni un secondaire d'une autre page.
+  principal ni un secondaire d'une autre page. Sur les pages de localité qui partagent un
+  principal, varier les secondaires pour donner un angle propre à chaque page.
 - Les familles de requêtes réservées à l'Étape 0.5 B sont respectées (ex : « réparation »,
   « dépannage », « panne » uniquement sur la page dépannage).
 - L'accueil prend le terme le plus générique du métier ; les pages filles des termes spécifiques.
